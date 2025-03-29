@@ -1,18 +1,18 @@
 import AppLayout from '@/layout/AppLayout.vue';
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {
             path: '/',
             component: AppLayout,
             children: [
-                {
-                    path: '/json/csv',
-                    name: 'csv2json',
-                    component: () => import('@/views/pages/json/CsvJson.vue')
-                },
+                // {
+                //     path: '/json/csv',
+                //     name: 'csv2json',
+                //     component: () => import('@/views/pages/json/CsvJson.vue')
+                // },
                 {
                     path: '/json/tree',
                     name: 'jsontree',

@@ -1,7 +1,6 @@
 <script setup>
 import { JsonTreeView } from "json-tree-view-vue3";
-import 'json-tree-view-vue3/dist/style.css'
-import csvParser from "csv-parser";
+import 'json-tree-view-vue3/dist/style.css';
 </script>
 
 <template>
@@ -25,8 +24,10 @@ export default {
       if(this.csv == null) {
         return 'null';
       }
-      console.log(this.csvparser(this.csv));
-      return JSON.stringify(this.csv.split(/\r?\n/));
+      return 'null';
+      // return JSON.stringify(this.$papa.parse(this.csv));
+      // console.log(this.csvparser(this.csv));
+      // return JSON.stringify(this.csv.split(/\r?\n/));
     }
   }
 }

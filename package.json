@@ -12,10 +12,12 @@
         "chart.js": "3.3.2",
         "csv-parser": "^3.2.0",
         "json-tree-view-vue3": "^1.0.2",
+        "primeflex": "^4.0.0",
         "primeicons": "^7.0.0",
         "primevue": "^4.3.1",
         "tailwindcss-primeui": "^0.5.0",
         "vue": "^3.4.34",
+        "vue-papa-parse": "^3.1.0",
         "vue-router": "^4.4.0"
     },
     "devDependencies": {

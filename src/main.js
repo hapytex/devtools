@@ -7,9 +7,10 @@ import PrimeVue from 'primevue/config';
 import ConfirmationService from 'primevue/confirmationservice';
 import ToastService from 'primevue/toastservice';
 import { JsonTreeView } from "json-tree-view-vue3";
-import { definePreset } from '@primeuix/themes';
+// import { definePreset } from '@primeuix/themes';
 
 import '@/assets/styles.scss';
+import 'primeflex/primeflex.css';
 
 const app = createApp(App);
 
