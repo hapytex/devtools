@@ -13,6 +13,8 @@ jobs:
         node-version: '20.x'
     - name: checkout code
       uses: actions/checkout@v2.3.1
+    - name: install dependencies
+      run: npm i
     - name: build the site
       run: make
   linux2:
@@ -27,6 +29,8 @@ jobs:
         node-version: '20.x'
     - name: checkout code
       uses: actions/checkout@v2.3.1
+    - name: install dependencies
+      run: npm i
     - name: build the site
       run: make
     - name: deploy site to gh-pages
