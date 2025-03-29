@@ -1,3 +1,3 @@
-Sakai is an application template for Vue based on the [create-vue](https://github.com/vuejs/create-vue), the recommended way to start a Vite-powered Vue projects.
+# [Devtools](http://devtools.hapytex.eu/#/)
 
-Visit the [documentation](https://sakai.primevue.org/documentation) to get started.
+Devtools is a (currently small) set of tools to help speed up development. It is a Vue project that is made with the [*Sakai* template](https://sakai.primevue.org/).
