@@ -1,3 +1,7 @@
+name: Deploy site
+on:
+  push
+
 jobs:
   linux1:
     name: Build site
