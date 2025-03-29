@@ -6,7 +6,8 @@ import Aura from '@primeuix/themes/aura';
 import PrimeVue from 'primevue/config';
 import ConfirmationService from 'primevue/confirmationservice';
 import ToastService from 'primevue/toastservice';
-import JsonViewer from 'vue-json-viewer'
+import { JsonTreeView } from "json-tree-view-vue3";
+import { definePreset } from '@primeuix/themes';
 
 import '@/assets/styles.scss';
 
@@ -23,6 +24,6 @@ app.use(PrimeVue, {
 });
 app.use(ToastService);
 app.use(ConfirmationService);
-app.use(JsonViewer);
+app.use(JsonTreeView);
 
 app.mount('#app');
