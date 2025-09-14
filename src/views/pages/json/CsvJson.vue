@@ -1,6 +1,9 @@
 <script setup>
 import { JsonTreeView } from "json-tree-view-vue3";
 import 'json-tree-view-vue3/dist/style.css';
+import Buffer from 'buffer';
+window.Buffer = Buffer;
+import { parse } from "csv-parse";
 </script>
 
 <template>
@@ -17,7 +20,7 @@ import 'json-tree-view-vue3/dist/style.css';
 <script>
 export default {
   data() {
-    return {csv: '', 'csvparser': csvParser()};
+    return {csv: '', 'csvparser': parse()};
   },
   computed: {
     json() {
